@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>High Sky Music | Feel the Music, Live the Moment</title>
+
+  <meta name="description" content="High Sky Music — music, releases and artist Sunil Kumar. Feel the Music, Live the Moment.">
+  <meta name="theme-color" content="#090705">
+
+  <!-- Open Graph / Social Link Preview -->
+  <meta property="og:title"
+        content="High Sky Music | Feel the Music, Live the Moment">
+
+  <meta property="og:description"
+        content="High Sky Music — Music, Releases & Artist Sunil Kumar Yadav">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:url"
+        content="https://highskymusic.github.io/high-sky-music/">
+
+  <meta property="og:image"
+        content="https://highskymusic.github.io/high-sky-music/thumbnail.jpg">
+
+  <meta property="og:image:secure_url"
+        content="https://highskymusic.github.io/high-sky-music/thumbnail.jpg">
+
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta property="og:image:alt"
+        content="High Sky Music — Feel the Music, Live the Moment">
+
+  <meta property="og:site_name" content="High Sky Music">
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title"
+        content="High Sky Music | Feel the Music, Live the Moment">
+
+  <meta name="twitter:description"
+        content="High Sky Music — Music, Releases & Artist Sunil Kumar Yadav">
+
+  <meta name="twitter:image"
+        content="https://highskymusic.github.io/high-sky-music/thumbnail.jpg">
+
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCW697763F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CCW697763F');
+  </script>
+
+  <style>
+    :root{--bg:#070504;--panel:#120c07;--gold:#e7b84b;--text:#f7f1df;--muted:#c9bea2}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at 50% 0,#2a1a08 0,#090705 45%,#050403 100%);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+    a{text-decoration:none;color:inherit}
+    .wrap{max-width:1120px;margin:auto;padding:0 22px}
+    header{position:sticky;top:0;z-index:10;background:rgba(5,4,3,.88);backdrop-filter:blur(12px);border-bottom:1px solid rgba(231,184,75,.18)}
+    nav{height:70px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:800;letter-spacing:4px;color:var(--gold);font-size:15px}
+    nav .links{display:flex;gap:24px;font-size:13px;color:var(--muted)}
+    nav .links a:hover{color:var(--gold)}
+    .hero{min-height:calc(100vh - 70px);display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:35px;padding:55px 0}
+    .hero h1{font-size:clamp(46px,8vw,88px);line-height:.92;margin:0 0 20px;letter-spacing:-3px}
+    .gold{color:var(--gold)}
+    .hero p{font-size:18px;line-height:1.7;color:var(--muted);max-width:600px}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{padding:13px 19px;border-radius:999px;border:1px solid rgba(231,184,75,.45);font-weight:700;font-size:14px}
+    .btn.primary{background:var(--gold);color:#160e04;border-color:var(--gold)}
+    .btn:hover{transform:translateY(-1px)}
+    .hero-art{display:flex;justify-content:center}
+    .hero-art img{width:min(470px,100%);border-radius:28px;box-shadow:0 30px 90px rgba(0,0,0,.7),0 0 70px rgba(231,184,75,.13)}
+    section{padding:80px 0;border-top:1px solid rgba(231,184,75,.1)}
+    .eyebrow{color:var(--gold);font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:800}
+    h2{font-size:38px;margin:10px 0 14px}
+    .lead{color:var(--muted);max-width:700px;line-height:1.7}
+    .artist{display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:center;background:linear-gradient(135deg,#171006,#0c0906);border:1px solid rgba(231,184,75,.16);border-radius:25px;padding:25px}
+    .artist .avatar{height:220px;border-radius:18px;background:#080604 url('logo.png') center/cover no-repeat}
+    .artist h3{font-size:32px;margin:0 0 10px}
+    .socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+    .socials a{border:1px solid rgba(231,184,75,.3);padding:10px 13px;border-radius:12px;color:var(--muted);font-size:13px}
+    .socials a:hover{color:var(--gold);border-color:var(--gold)}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:28px}
+    .card{padding:22px;border-radius:18px;background:#0f0a06;border:1px solid rgba(231,184,75,.13);min-height:130px}
+    .card b{display:block;color:var(--gold);margin-bottom:10px}
+    .card span{color:var(--muted);font-size:13px;line-height:1.6}
+    footer{padding:45px 0;color:#9e947e;font-size:13px;text-align:center;border-top:1px solid rgba(231,184,75,.1)}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:35px}.hero-art{order:-1}.hero-art img{max-width:330px}.artist{grid-template-columns:1fr}.artist .avatar{height:280px}.cards{grid-template-columns:1fr 1fr}nav .links{display:none}}
+    @media(max-width:480px){.cards{grid-template-columns:1fr}.hero h1{font-size:54px}}
+  </style>
+</head>
+
+<body>
+<header><div class="wrap"><nav>
+  <a class="brand" href="#home">HIGH SKY MUSIC</a>
+  <div class="links"><a href="#artist">Artist</a><a href="#music">Music</a><a href="#connect">Connect</a></div>
+</nav></div></header>
+
+<main id="home">
+<section class="hero"><div class="wrap" style="display:contents">
+  <div>
+    <div class="eyebrow">Independent Music Label</div>
+    <h1>Feel the <span class="gold">Music.</span><br>Live the Moment.</h1>
+    <p>Welcome to High Sky Music — a home for original music, artists and stories. Discover the latest releases from artist <strong>Sunil Kumar</strong> and connect with High Sky Music across your favourite platforms.</p>
+    <div class="buttons">
+      <a class="btn primary" href="https://youtube.com/@musichighsky?si=3QJSswTpMyE1QdOj" target="_blank" rel="noopener">▶ YouTube</a>
+      <a class="btn" href="https://open.spotify.com/artist/5hbUQIKqhQUAJsp9qLLHOA" target="_blank" rel="noopener">♪ Spotify</a>
+    </div>
+  </div>
+  <div class="hero-art"><img src="logo.png" alt="High Sky Music"></div>
+</div></section>
+
+<section id="artist"><div class="wrap">
+  <div class="eyebrow">Featured Artist</div><h2>Sunil Kumar</h2>
+  <div class="artist">
+    <div class="avatar" aria-label="High Sky Music artwork"></div>
+    <div>
+      <h3>Sunil Kumar</h3>
+      <p class="lead">Artist and creator bringing original Hindi and Indian music to listeners through High Sky Music.</p>
+      <div class="socials">
+        <a href="https://open.spotify.com/artist/5hbUQIKqhQUAJsp9qLLHOA" target="_blank" rel="noopener">Spotify</a>
+        <a href="https://youtube.com/@musichighsky?si=3QJSswTpMyE1QdOj" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/musichighsky?stkn=d3lmcG03a2lrOXJp" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="music"><div class="wrap">
+  <div class="eyebrow">Explore High Sky Music</div><h2>Listen. Watch. Follow.</h2>
+  <p class="lead">Find High Sky Music on streaming, video and social platforms. New releases and music content will be added here as the catalogue grows.</p>
+  <div class="cards">
+    <a class="card" href="https://youtube.com/@musichighsky?si=3QJSswTpMyE1QdOj" target="_blank"><b>YouTube</b><span>Music videos, releases and visual content.</span></a>
+    <a class="card" href="https://open.spotify.com/artist/5hbUQIKqhQUAJsp9qLLHOA" target="_blank"><b>Spotify</b><span>Listen to Sunil Kumar on Spotify.</span></a>
+    <a class="card" href="https://www.instagram.com/musichighsky?stkn=d3lmcG03a2lrOXJp" target="_blank"><b>Instagram</b><span>Behind-the-scenes, announcements and updates.</span></a>
+    <a class="card" href="https://www.facebook.com/share/18KwpPRdVx/" target="_blank"><b>Facebook</b><span>Follow High Sky Music for updates.</span></a>
+  </div>
+</div></section>
+
+<section id="connect"><div class="wrap">
+  <div class="eyebrow">Stay Connected</div><h2>Join the High Sky Music community.</h2>
+  <p class="lead">Follow the official WhatsApp channel for new music, announcements and updates.</p>
+  <div class="buttons"><a class="btn primary" href="https://whatsapp.com/channel/0029Vb9PkpfI7BeEjw8fPF1b" target="_blank" rel="noopener">Join WhatsApp Channel</a></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 High Sky Music · Feel the Music, Live the Moment.</div></footer>
+</body>
+</html>
